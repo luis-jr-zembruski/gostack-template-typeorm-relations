@@ -29,7 +29,6 @@ class ProductsRepository implements IProductsRepository {
 
     await this.ormRepository.save(product);
 
-    // testes
     return product;
   }
 

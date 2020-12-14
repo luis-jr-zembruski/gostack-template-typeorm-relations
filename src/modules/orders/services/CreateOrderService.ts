@@ -63,7 +63,7 @@ class CreateOrderService {
 
     if (findProductsWithNoQuantityAvailable.length) {
       throw new AppError(
-        `The quantity ${findProductsWithNoQuantityAvailable[0].quantity} is not avaliable for ${findProductsWithNoQuantityAvailable[0].id}`,
+        `The quantity ${findProductsWithNoQuantityAvailable[0].quantity} is not available for ${findProductsWithNoQuantityAvailable[0].id}`,
       );
     }
 
